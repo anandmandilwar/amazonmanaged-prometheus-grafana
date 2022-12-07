@@ -22,7 +22,6 @@ variable "User_ID" {
   description = "The User ID of the user created in IAM Identity Center"
   type        = string
   sensitive   = true
-  default = "b458d418-c0b1-7031-c204-719340c61d2d"
 }
 
 #Define Grafana workspace Name
@@ -38,3 +37,10 @@ variable "prometheus_workspace_name" {
   type        = string
   default = "managedPrometheusDemo"
 }
+
+#AWS Account ID that hosts Managed Grafana workspace
+variable "aws_account_ID" {
+  description = "Account ID of the Grafana workspace"
+  type = string
+}
+

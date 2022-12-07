@@ -18,7 +18,7 @@ output "workspace_prometheus_endpoint" {
 }
 
 output "aws_grafana_workspace_value" {
-  value = aws_grafana_workspace.workspace.id
+  value = aws_grafana_workspace.Grafana_workspace.id
   sensitive = true
 }
 

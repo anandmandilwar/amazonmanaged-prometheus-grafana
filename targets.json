@@ -1,0 +1,24 @@
+[
+    {
+      "labels": {
+        "job": "jmx"
+      },
+      "targets": [
+        "<Broker-1-DNS>:11001",
+        "<Broker-2-DNS>:11001",
+        "<....>:11001",
+	"<Broker-n-DNS>:11001"
+      ]
+    },
+    {
+      "labels": {
+        "job": "node"
+      },
+      "targets": [
+        "<Broker-1-DNS>:11001",
+	"<Broker-2-DNS>:11002",
+	"<...>:11002",
+	"<Broker-n-DNS>:11002"
+      ]
+    }
+  ]
